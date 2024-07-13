@@ -49,3 +49,9 @@ h1 {
     grid-template-columns: repeat(4, 1fr);
     display: grid;
 }
+
+@media  screen and (max-width:576px) {
+    .containar{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
